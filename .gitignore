@@ -1,0 +1,33 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Java & Maven
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+*.class
+*.log
+
+# Node & Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+*.local
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Docker
+postgres_data/
